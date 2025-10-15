@@ -1,0 +1,3 @@
+
+def calculate_total_revenue(sales):
+  return sum(item["price"] * item["quantity"] for item in sales)
